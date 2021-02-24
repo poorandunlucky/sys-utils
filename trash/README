@@ -1,0 +1,45 @@
+################################################################################
+TRASH SCRIPT
+--------------------------------------------------------------------------------
+
+DESCRIPTION
+
+This script is meant to replace, or supplement, the rm(8) command.  It creates 
+a ~/.trash directory, and will create subdirectories from timestamps to prevent 
+overwriting files, and directories with identical names.  This can be useful, 
+or annoying, but it's simple, and good enough for now.
+
+
+INSTALLATION
+
+You can either create an alias to the script in your ~/bin directory, put the 
+script in /usr/local/sbin, or add ~/bin to your PATH environment variable.
+
+
+USAGE
+
+trash file1 [ file 2 [ ... ] ]
+
+
+MODIFICATIONS
+
+The file 'test-trash' is the same as 'trash', except that it operates in its 
+current directory.  Working on that file, and pushing the changes over to the 
+other file, or copying the working copy, and adding tildes where appropriate 
+are simple ways to work on the script.
+
+
+LICENSE
+
+This software is not of the public domain, and more or less "share ware", 
+meaning if I haven't shared it with you, you probably shouldn't have it, and 
+if I have shared it with you, you can't re-share it, you can modify it with 
+attribution, and you need to pay if you use all, or parts of this code for 
+commercial purposes, or in a commercial setting, sucn as on machines used 
+forr work, rented servers, and the like.  You should really be able to code 
+your own, and I'm not rich, so send a few bucks my way if you can.  Thanks.
+
+--------------------------------------------------------------------------------
+Tyler Ufen <tyler-github@null.net>                            February 24, 2021.
+================================================================================
+
